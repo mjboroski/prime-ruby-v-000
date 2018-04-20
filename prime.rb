@@ -7,10 +7,13 @@ def prime?(n)
           return false
   end
 
-   i = 5
-   while i * i ≤ n
-      if n % i = 0 or n % (i + 2) = 0
-          return false
-      i = i + 6
-   return true
+  i = 5
+  while i * i ≤ n
+    if n % i = 0 or n % (i + 2) = 0
+        return false
+    end
+    i = i + 6
+  end     
+
+  return true
 end

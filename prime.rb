@@ -13,7 +13,7 @@ def prime?(n)
         return false
     end
     i = i + 6
-  end     
+  end
 
   return true
 end
